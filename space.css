@@ -1,0 +1,35 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom ,darkblue,rgb(209, 117, 229)
+    );
+    background-repeat: no-repeat;
+}
+.page-header{
+    background-image: linear-gradient(to right ,purple,coral);
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+.fact{
+    background-color: midnightblue;
+    color: white;
+    border-radius:  10px;
+    padding: 5px;
+}
+.fact h2{
+    color: coral;
+}
+@keyframes twinkle{
+    from {background-color: yellow;}
+    to {background-color: white;}
+}
+.star{width:60px;
+    height: 60px; background-color: yellow;
+border-radius: 50%;
+animation:twinkle 2s infinite alternate;}
+.footer{
+    color: aqua;
+    background-color: blueviolet;
+}
